@@ -17,4 +17,6 @@ class MembersController < ApplicationController
       @member[:location] = "神奈川、横浜"
       @member[:about] = "こんにちは。服部稔です。よろしくお願いします。"
     end
+  end
+
 end
