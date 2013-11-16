@@ -1,0 +1,10 @@
+<h1>服部家のWebサイト</h1>
+<%= image_tag 'Hattori_web.jpg' %>
+<h2>みんなの紹介</h2>
+<h3><%= @member[:name] %></h3>
+<p><%= @member[:username] %></p>
+<ul>
+  <li>Location : <%= @member[:location] %></li>
+  <li>About    : <%= @member[:about] %></li>
+</ul>
+
